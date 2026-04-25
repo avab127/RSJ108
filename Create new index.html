@@ -33,6 +33,7 @@
             margin: 20px 0;
         }
 
+        /* Orange box for "Things You'll Need" */
         .box {
             background-color: #F4A261;
             padding: 15px;
@@ -40,17 +41,24 @@
             margin: 20px 0;
         }
 
+        /* Steps now orange instead of yellow */
         .step {
-            background-color: #E9C46A;
+            background-color: #E76F51;
             padding: 15px;
             border-radius: 6px;
             margin-top: 20px;
+            color: white;
         }
 
-        <img <a data-flickr-embed="true" href="https://www.flickr.com/photos/mark-meng/34903998756/in/photolist-Vbm7N1-xUi2Dh-TDRdnc-2aDfMMY-B4GCWC-uXp7jy-CAeyxW-r1ZSvT-UZ2fe1-JHnFMR-NrqMJC-RkiLFe-ZbPFEh-28cYxxB-NMsEpC-rtvYdv-2fBy4gS-CBgqbx-zWTZuT-GnFtBa-xL3Q1P-JWWbf2-2cJ3KLU-xYnNaP-ZDBxU5-Dx8zDB-rjBhMQ-AspDP3-ZP5efh-shwQEQ-syTG6T-TxXrYC-Mhdw3A-22UcbTN-VXAPHQ-yjPvwW-Gd2qVZ-rVWYUH-XpPViV-TaAQP6-MkNT6z-DqEYAp-ydz6TW-sGpPDr-BWHy6W-rkdGek-22c8p9e-SUChHZ-FGnTSp-NSJziD" title="SYDNEY-UNIVERSITY-18"><img src="https://live.staticflickr.com/4203/34903998756_c201e2a226_k.jpg" width="%" height="%" alt="SYDNEY-UNIVERSITY-18"/></a>
-            width: 100%;
-            border-radius: 8px;
+        .flickr-img {
+            text-align: center;
             margin-bottom: 20px;
+        }
+
+        .flickr-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
 
         .video-link {
@@ -82,8 +90,12 @@
     <!-- Main Content -->
     <div class="container">
 
-        <!-- Your Image -->
-        <img src="IMG_0845.jpeg" alt="Campus Image">
+        <!-- Flickr Image -->
+        <div class="flickr-img">
+            <a data-flickr-embed="true" href="https://www.flickr.com/photos/mark-meng/34903998756/in/photolist-Vbm7N1-xUi2Dh-TDRdnc-2aDfMMY-B4GCWC-uXp7jy-CAeyxW-r1ZSvT-UZ2fe1-JHnFMR-NrqMJC-RkiLFe-ZbPFEh-28cYxxB-NMsEpC-rtvYdv-2fBy4gS-CBgqbx-zWTZuT-GnFtBa-xL3Q1P-JWWbf2-2cJ3KLU-xYnNaP-ZDBxU5-Dx8zDB-rjBhMQ-AspDP3-ZP5efh-shwQEQ-syTG6T-TxXrYC-Mhdw3A-22UcbTN-VXAPHQ-yjPvwW-Gd2qVZ-rVWYUH-XpPViV-TaAQP6-MkNT6z-DqEYAp-ydz6TW-sGpPDr-BWHy6W-rkdGek-22c8p9e-SUChHZ-FGnTSp-NSJziD" title="SYDNEY-UNIVERSITY-18">
+                <img src="https://live.staticflickr.com/4203/34903998756_c201e2a226_k.jpg" alt="SYDNEY-UNIVERSITY-18">
+            </a>
+        </div>
 
         <h2>How to Balance Life and College as a Journalism Student</h2>
 
